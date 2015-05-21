@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Tourism Sopetran</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="Hotel">Hotels</string>
+    <string name="Inicio">Home</string>
+    <string name="Sitios">Places of interest</string>
+    <string name="Bares">Bars</string>
+    <string name="Demo">Demography</string>
+    <string name="Presentacion">Presentation</string>
+    <string name="tPresentacion">Sopetran is part of the trilogy of the Ruta del Sol in western Antioquia. After the opening of the tunnel of the West Fernando Gomez Martinez, their tourist possibilities have tripled from the year 2006. It is a land suitable for ecotourism.</string>
+    <string name="title_activity_activity_hotel">Hotels</string>
+    <string name="title_activity_activity_sitios">Places of interest</string>
+    <string name="action_settings">Settings</string>
+    <string name="titCable">GUATOCABLE</string>
+    <string name="tCable">The journey that makes the wagon is 760 meters at a height of 340 meters and the travel time is about 7 minutes.</string>
+    <string name="tSannico">Known as the "Antioquian Macondo" for its beautiful architecture of typical buildings of the paisa ambience of yesteryear.</string>
+    <string name="titSannico">TOWNSHIP OF SAN NICOLÁS</string>
+    <string name="tNevera">Located in the eastern part of the main park of the municipality, this trail leads to the icy waters of the "Nevera"</string>
+    <string name="titNevera">NATURE TRAIL LA NEVERA</string>
+    <string name="title_activity_activity_demografia">Demography</string>
+    <string name="tdemo1">Total population: 13.943 hab.</string>
+    <string name="tdemo2">Urban population: 6.411</string>
+    <string name="tdemo3">Rural population: 7.531</string>
+    <string name="tdemo4">Literacy: 88,7%</string>
+    <string name="tdemo5">Urban zone: 92,3%</string>
+    <string name="tdemo6">Rural zone: 85,7%</string>
+    <string name="thotelb">Facilities in the countryside, surrounded by nature with all the beauty and tranquility that you need</string>
+    <string name="thotelt">Our commitment is to excellence in nustros services. We wish to make your travel experience, a real pleasant experience and a fond memory</string>
+    <string name="thotelv">It is a modern country hotel, which offers an intimate, inspiring presence that is paid by the good design and privacy</string>
+    <string name="title_activity_activity_about">About</string>
+    <string name="title_activity_activity_bar">Bars</string>
+    <string name="tAviso">Touristic application of Sopetran</string>
+    <string name="tAviso2">Developed by: Santiago Londoño Jiménez</string>
+    <string name="title_activity_splash">Tourism Sopetran</string>
+
+
+
+</resources>
