@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">Tourism Sopetran</string>
 
+    <string name="mapa">Location</string>
+
     <string name="hello_world">Hello world!</string>
     <string name="Hotel">Hotels</string>
     <string name="Inicio">Home</string>
@@ -33,6 +35,7 @@
     <string name="tAviso">Touristic application of Sopetran</string>
     <string name="tAviso2">Developed by: Santiago Londoño Jiménez</string>
     <string name="title_activity_splash">Tourism Sopetran</string>
+    <string name="title_activity_maps">Location</string>
 
 
 

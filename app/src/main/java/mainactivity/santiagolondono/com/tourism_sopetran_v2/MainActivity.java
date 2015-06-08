@@ -119,6 +119,11 @@ public class MainActivity extends ActionBarActivity {
             startActivity(i);
         }
 
+        if (id == R.id.mapa) {
+            Intent i =new Intent(this,MapsActivity.class);
+            startActivity(i);
+        }
+
         return super.onOptionsItemSelected(item);
         }
 

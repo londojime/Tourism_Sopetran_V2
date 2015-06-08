@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">Turismo Sopetrán</string>
 
+    <string name="mapa">Ubicación</string>
+
     <string name="hello_world">Hello world!</string>
     <string name="Hotel">Hoteles</string>
     <string name="Inicio">Inicio</string>
@@ -36,6 +38,7 @@
 
 
     <string name="title_activity_splash">Turismo Sopetrán</string>
+    <string name="title_activity_maps">Ubicación</string>
 
 
 

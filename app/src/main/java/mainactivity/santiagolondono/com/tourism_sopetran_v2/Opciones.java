@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.app.ListFragment;
+import android.content.Intent;
 import android.content.res.Configuration;
 import android.net.Uri;
 import android.os.Bundle;
@@ -28,8 +29,10 @@ public class Opciones extends ListFragment {
         final String Demografia = getResources().getString(R.string.Demo);
         final String Hoteles      = getResources().getString(R.string.Hotel);
         final String Sitios = getResources().getString(R.string.Sitios);
+        final String Mapa = getResources().getString(R.string.mapa);
 
-        opcion = new String[]{Presentacion, Bares, Demografia, Hoteles, Sitios};
+
+        opcion = new String[]{Presentacion, Bares, Demografia, Hoteles, Sitios, Mapa};
 
         super.onCreate(savedInstanceState);
         setListAdapter(new ArrayAdapter<String>(getActivity(),android.R.layout.simple_list_item_1,opcion));
@@ -106,6 +109,14 @@ public class Opciones extends ListFragment {
             else
             fragmentTransaction.replace(R.id.fcambiar, fragment).commit();
         }
+
+        if(position==5) {
+
+            Intent i =new Intent(getActivity(),MapsActivity.class);
+            startActivity(i);
+        }
+
+
 
     }
 }
