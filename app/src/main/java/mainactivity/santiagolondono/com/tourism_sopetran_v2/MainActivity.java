@@ -13,6 +13,21 @@ import android.view.MenuItem;
 public class MainActivity extends ActionBarActivity {
 
     @Override
+    public void onBackPressed() {
+
+        FragmentManager fragmentManager=getFragmentManager();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+
+        if (getResources().getConfiguration().orientation== Configuration.ORIENTATION_PORTRAIT){
+
+            Opciones fragment = new Opciones();
+            fragmentTransaction.replace(R.id.fcambiarport,fragment).commit();
+        }
+
+
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
