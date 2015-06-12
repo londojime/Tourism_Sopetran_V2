@@ -24,7 +24,7 @@ public class Opciones extends ListFragment {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
-        final String Presentacion    = getResources().getString(R.string.Hotel);
+        final String Presentacion    = getResources().getString(R.string.Presentacion);
         final String Bares        = getResources().getString(R.string.Bares);
         final String Demografia = getResources().getString(R.string.Demo);
         final String Hoteles      = getResources().getString(R.string.Hotel);

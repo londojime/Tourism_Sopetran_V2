@@ -142,8 +142,8 @@ public class MapsActivity extends ActionBarActivity implements  GoogleApiClient.
     private void handleNewLocation(Location location) {
         Log.d(TAG, location.toString());
 
-        double currentLatitude = location.getLatitude();
-        double currentLongitude = location.getLongitude();
+       // double currentLatitude = location.getLatitude();
+       // double currentLongitude = location.getLongitude();
 
        // LatLng latLng = new LatLng(currentLatitude, currentLongitude);
 
@@ -155,7 +155,7 @@ public class MapsActivity extends ActionBarActivity implements  GoogleApiClient.
                 .title("Sopetrán");
         mMap.addMarker(options);
         mMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
-
+ //newLatLngZoom(latLng,9)
     }
 
     @Override
